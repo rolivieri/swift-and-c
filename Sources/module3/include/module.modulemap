@@ -1,0 +1,5 @@
+module Math [system] {
+  header "header.h"
+  link "module3"
+  export *
+}
