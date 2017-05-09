@@ -15,5 +15,6 @@ int main()
     p.lastName = "Smith";
     printf("%s\n", p.lastName);
     savePerson(p);
+    savePersonByReference(&p);
     return 0;
 }
