@@ -1,7 +1,13 @@
 import module2
-import Math
+import module3
 
 print("Hello, world!")
 let object:AClass = AClass()
-let result = Math.add(5, 10)
+let result = module3.add(5, 10)
 print(result)
+var p = Person()
+p.age = 90
+var buffer = UnsafeMutablePointer<Int8>(mutating: "Phillips")
+p.lastName = buffer
+print("p = \(p)")
+module3.addPerson(p)

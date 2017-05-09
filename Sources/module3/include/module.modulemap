@@ -1,4 +1,4 @@
-module Math [system] {
+module module3 [system] {
   header "header.h"
   link "module3"
   export *
