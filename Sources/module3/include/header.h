@@ -14,6 +14,6 @@ typedef struct
 } Person;
 
 int add(int x, int y);  /* An example function declaration */
-void addPerson(Person p);
+void savePerson(Person p);
 
 #endif // FOO_H_

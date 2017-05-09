@@ -14,6 +14,6 @@ int main()
     strcpy(p.firstName, "Bill");
     p.lastName = "Smith";
     printf("%s\n", p.lastName);
-    addPerson(p);
+    savePerson(p);
     return 0;
 }

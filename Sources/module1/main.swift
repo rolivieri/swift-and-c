@@ -10,4 +10,4 @@ p.age = 90
 var buffer = UnsafeMutablePointer<Int8>(mutating: "Phillips")
 p.lastName = buffer
 print("p = \(p)")
-module3.addPerson(p)
+module3.savePerson(p)

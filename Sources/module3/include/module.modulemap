@@ -1,4 +1,4 @@
-module module3 [system] {
+module module3 {
   header "header.h"
   link "module3"
   export *
