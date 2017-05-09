@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "../Sources/module3/include/header.h"  /* Include the header here, to obtain the function declaration */
 
 // To compile, use:
@@ -8,5 +9,11 @@ int main()
 {
     int result = add(3, 10);  /* Use the function here */
     printf("%d\n", result);
+    Person p;
+    p.age = 10;
+    strcpy(p.firstName, "Bill");
+    p.lastName = "Smith";
+    printf("%s\n", p.lastName);
+    addPerson(p);
     return 0;
 }
